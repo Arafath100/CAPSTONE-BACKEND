@@ -24,17 +24,20 @@ The Bulk Email Tool Backend is a powerful system designed to handle bulk email p
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Arafath100/CAPSTONE-BACKEND.git
-   cd BACKEND
 
-2. **Install dependencies:**
+2. **Change Directory**
+   ```bash
+   cd BACKEND
+   
+3. **Install dependencies:**
    ```bash
    npm install
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
    Create a .env file based on .env.example and provide the necessary configuration settings,
    including database connection details and email service API keys.
 
-4. **Run the application:**
+5. **Run the application:**
    ```bash
    npm start
 
@@ -55,7 +58,7 @@ The Bulk Email Tool Backend is a powerful system designed to handle bulk email p
 
 ## Postman API Documentation
 
-   Explore the detailed API documentation using Postman <a href="https://documenter.getpostman.com/view/28864237/2s9YXiZgp4" target="_blank">here.</a>
+   Explore the detailed API documentation using Postman [here](https://documenter.getpostman.com/view/28864237/2s9YXiZgp4).
 
 ## Configuration
 
