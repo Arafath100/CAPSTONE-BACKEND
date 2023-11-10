@@ -4,17 +4,6 @@
 
 The Bulk Email Tool Backend is a powerful system designed to handle bulk email processing. It provides functionalities for sending emails in bulk, managing email templates, and monitoring email delivery status.
 
-## Table of Contents
-  - [Installation](#installation)
-  
-  - [Usage](#usage) 
-    - [API Endpoints](#api-endpoints)
-    - [Database Schema](#database-schema)
-
-  - [Contributing](#contributing)
-  
-  - [License](#license)
-
 ## Installation
 
 1. **Clone the repository:**
