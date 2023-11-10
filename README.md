@@ -11,10 +11,6 @@ The Bulk Email Tool Backend is a powerful system designed to handle bulk email p
     - [API Endpoints](#api-endpoints)
     - [Database Schema](#database-schema)
 
-  - [Postman API Documentation](#postman-api-documentation)
-
-  - [Configuration](#configuration)
-
   - [Contributing](#contributing)
   
   - [License](#license)
