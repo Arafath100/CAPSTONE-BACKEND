@@ -41,13 +41,13 @@ The Bulk Email Tool Backend is a powerful system designed to handle bulk email p
 #  Usage
 ### API Endpoints:
 
-   /api/settings: Handle email settings, including email, password, and user details.
-   /api/getCredential: Get user credentials from the database.
-   /api/getMailSendToday: Get the count of emails sent today.
-   /api/sendEmails: Send emails in bulk.
-   /api/deleteCred: Delete user credentials from the database.
-   /api/getLogDetailsData: Get log details from the database.
-   /api/getGraphData: Get graph data based on a date range.
+  ◙ /api/settings: Handle email settings, including email, password, and user details. <br/>
+  ◙ /api/getCredential: Get user credentials from the database. <br/>
+  ◙ /api/getMailSendToday: Get the count of emails sent today. <br/>
+  ◙ /api/sendEmails: Send emails in bulk. <br/>
+  ◙ /api/deleteCred: Delete user credentials from the database. <br/>
+  ◙ /api/getLogDetailsData: Get log details from the database. <br/>
+  ◙ /api/getGraphData: Get graph data based on a date range. <br/>
    
 ### Database Schema:
 
