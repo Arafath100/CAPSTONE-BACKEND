@@ -18,7 +18,8 @@ import sendEmail from "../utils/sendEmail.js";
 const router = express.Router();
 
 // const API = "http://localhost:5173";
-const API = "https://capstone-project-bulk-email-tool.netlify.app"
+// const API = "https://capstone-project-bulk-email-tool.netlify.app"
+const API = process.env.API;
 
 // API route to handle user signup
 router.post('/signup',express.json(),async function(request, response){

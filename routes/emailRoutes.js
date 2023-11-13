@@ -17,7 +17,8 @@ import sendEmailBulk from "../utils/BulkEmail.js";
 const router = express.Router();
 
 // const API = "http://localhost:5173";
-const API = "https://capstone-project-bulk-email-tool.netlify.app"
+// const API = "https://capstone-project-bulk-email-tool.netlify.app"
+const API = process.env.API;
 
 // API route to handle email settings
 router.post(
