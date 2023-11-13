@@ -15,7 +15,7 @@ app.use(express.json());
 
 dotenv.config();
 
-app.get("/", function (request, response) {
+app.get("/", function (_request, response) {
   response.send('📧 🅱🆄🅻🅺 - 🅴🅼🅰🅸🅻 - 🆃🅾🅾🅻 📧');
 });
 
