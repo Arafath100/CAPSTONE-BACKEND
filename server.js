@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 
 // Parse incoming JSON data
-app.use(express.json());
+app.use(express.json()); 
 
 dotenv.config();
 
@@ -19,6 +19,7 @@ app.get("/", function (_request, response) {
   response.send('📧 🅱🆄🅻🅺 - 🅴🅼🅰🅸🅻 - 🆃🅾🅾🅻 📧');
 });
 
+// const MONGO_URL = 'mongodb://127.0.0.1';
 const MONGO_URL = process.env.MONGO_URL;
 const PORT = process.env.PORT || 4000;
 
