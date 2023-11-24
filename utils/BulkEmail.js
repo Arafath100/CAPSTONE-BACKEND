@@ -4,10 +4,11 @@ import nodemailer from 'nodemailer';
 const EmailBulk =async (email,subject,message,user,pass) =>{
     try {
     const transporter = nodemailer.createTransport({
-        host: process.env.HOST,
-        service: process.env.SERVICE,
-        post: process.env.EMAIL_PORT,
-        secure: Boolean(process.env.SECURE),
+        // host: process.env.HOST,
+        // service: process.env.SERVICE,
+        // post: process.env.EMAIL_PORT,
+        // secure: Boolean(process.env.SECURE),
+        service: "gmail",
         auth:{
             user:user,
             pass: pass
