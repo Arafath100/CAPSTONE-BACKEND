@@ -61,7 +61,7 @@ const sendEmail = async (email, subject, text) => {
               <h3>${subject}</h3>
               <hr />
               <p>
-                This link is valid for 15 minutes.
+                This link is valid for 2 hours.
                 Kindly use it before it elapses, or generate a new link to proceed.
               </p>
               <a href="${text}" target="_blank" style="text-decoration: none; background-color: #00abf0; color: black; border-radius: .2rem; padding: .2rem;">CLICK HERE</a>
