@@ -12,7 +12,7 @@ export async function createUser(data) {
 // Add a session token with an expiration time
 export async function addToken(data) {
     const ret = await client.db(dataBaseName).collection("sessionTokens").insertOne(data);
-           await client.db(dataBaseName).collection("sessionTokens").createIndex({ "DateTime": 1} , {expireAfterSeconds :900})
+           await client.db(dataBaseName).collection("sessionTokens").createIndex({ "DateTime": 1} , {expireAfterSeconds :7200})
            return ret
 }
 
